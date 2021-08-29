@@ -12,7 +12,7 @@ const Cart = (props) =>{
         <CartItem 
             key={item.id}
             name={item.name} 
-            item={item.amount} 
+            amount={item.amount} 
             price={item.price}
             onRemove={removeItemHandler}
             onAdd={addItemHandler}>
