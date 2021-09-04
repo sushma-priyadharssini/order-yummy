@@ -42,6 +42,12 @@ const Checkout = (props) => {
         if (!formIsValid) {
             return;
         }
+        props.onConfirm({
+            name,
+            street,
+            postal,
+            city
+        })
     }
 
     const getClass = (isFieldValid) => {
