@@ -62,3 +62,8 @@
     border-color: #aa0b20;
     background-color: #ffeff1;
   }
+
+  .invalid .error-message {
+    color: #ca3e51;
+    margin: 0px;
+  }
